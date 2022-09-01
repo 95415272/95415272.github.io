@@ -1,0 +1,176 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        /* position: static; */
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        background-image: url(../index/图片/粉色背景.png);
+        background-position: center;
+        background-repeat: repeat;
+    }
+    
+    button {
+        border: none;
+    }
+    
+    .zhu {
+        width: 100%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .nav {
+        width: 600px;
+        height: 80px;
+        margin-left: 780px;
+        font-size: 25px;
+        font-weight: bold;
+        /* background-color: pink; */
+    }
+    
+    .nav li {
+        float: left;
+        display: line;
+        margin-left: 35px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    
+    .nav li:hover {
+        color: rgb(8, 133, 133);
+        font-size: 28px;
+    }
+    
+    .myself {
+        width: 400px;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 5px;
+        /* display: block; */
+        float: left;
+        /* background-color: rgb(98, 9, 214); */
+        font-size: 40px;
+    }
+    
+    .myself img {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+    
+    .myself img:hover {
+        cursor: pointer;
+        width: 62px;
+        height: 62px;
+    }
+    
+    .myself button {
+        font-size: 25px;
+        background-color: rgb(249, 227, 231);
+    }
+    
+    .myself button:hover {
+        background-color: #d8a9c4;
+        border-radius: 10px;
+    }
+    
+    .biaoti {
+        width: 2200px;
+        margin: 20px;
+        line-height: 100px;
+        white-space: nowrap;
+        font-size: 40px;
+        text-align: center;
+        float: left;
+        position: relative;
+    }
+    
+    .biaoti h1 {
+        color: #f34242;
+        font-family: "楷体";
+    }
+    
+    .biaoti marquee {
+        color: rgb(10, 141, 53);
+        font-family: "楷体";
+    }
+    
+    .biaoti marquee:hover {
+        background-color: rgb(241, 180, 196);
+    }
+    
+    .baoguo {
+        width: 100%;
+        margin: 30px 0%;
+    }
+    
+    .search {
+        margin-top: 1px;
+        margin-left: 24%;
+        float: left;
+        position: relative;
+        padding: 20px;
+        white-space: nowrap;
+    }
+    
+    .search input {
+        margin-left: 180px;
+        width: 600px;
+        height: 60px;
+        padding-left: 20px;
+        border: 5px solid #eb0989;
+        border-radius: 20px 0 0 20px;
+        border-right: 0;
+        color: #ccc;
+        font-size: 20px;
+    }
+    
+    .search input:hover {
+        background-color: rgb(245, 220, 228);
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .search button {
+        width: 80px;
+        height: 70px;
+        /* background-color: purple; */
+        background-image: url(images/小logo.png) no-repeat;
+        background-color: #eb0989;
+        border-radius: 0 20px 20px 0;
+        ;
+    }
+    
+    .search button:hover {
+        background-color: rgb(240, 105, 156);
+        cursor: pointer;
+        font-size: 18px;
+    }
+    
+    .kecheng {
+        float: left;
+        width: 1650px;
+        height: 450px;
+        background-color: #fff;
+        margin-top: 30px;
+        margin-left: 12%;
+        position: relative;
+    }
+    
+    .kecheng img {
+        float: left;
+        width: 540px;
+        height: 500px;
+        margin: 5px;
+        background-color: #f34242;
+    }
+    
+    li {
+        list-style: none;
+    }
